@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tfboys">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/t"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tfboys.TfActivity"></activity>
+        <activity android:name=".jackson.JackActivity" />
+        <activity android:name=".roy.RoActivity" />
+        <activity android:name=".roy.RActivity" />
+        <activity android:name=".karry.PhotokActivity" />
+        <activity android:name=".tfboys.TfboysActivity" />
+        <activity android:name=".karry.KarryActivity" />
+        <activity android:name=".roy.RoyActivity" />
+        <activity android:name=".jackson.JacksonActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
